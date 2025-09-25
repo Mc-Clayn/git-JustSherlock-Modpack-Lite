@@ -1,0 +1,15 @@
+﻿LICENSE:
+
+This license permits persons who have received a copy of this software and related documentation (hereinafter referred to as the "Software"),
+use the Software free of charge without restrictions, including the unlimited right to use, copy, modify, add, publish, distribute,
+sublicense and / or sell copies of the Software, as well as to persons to whom the Software is provided, subject to the following conditions:
+The above copyright notice and these terms must be included in all copies or significant portions of this Software.
+THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+CONFORMITY FOR ITS SPECIFIC PURPOSE AND NO VIOLATION OF RIGHTS. IN NO EVENT SHALL THE AUTHORS OR RIGHT HOLDERS BE LIABLE FOR ACTIONS FOR DAMAGES,
+OF DAMAGES OR OTHER REQUIREMENTS UNDER EXISTING CONTRACTS, DELICTS OR OTHERWISE ARISING FROM, CAUSED OR RELATED TO THE SOFTWARE OR THE USE OF THE SOFTWARE
+PROVIDING OR OTHER ACTIONS WITH THE SOFTWARE.
+
+
+Installer author: _McClayn
+YouTube channel Just Sherlock / TwinGuys
+Copyright © 2020-2023

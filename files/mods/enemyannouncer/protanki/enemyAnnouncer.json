@@ -1,0 +1,25 @@
+{
+    "anchorPoint": "center",
+    "enabled": true,
+    "logicCanShotSound": true,
+    "logicHighlightMinimap": true,
+    "logicSightedDisplay": true,
+    "logicSightedSound": false,
+    "minimized": false,
+    "offset": {
+        "arcade": [
+            -46,
+            77
+        ],
+        "sniper": [
+            -46,
+            249
+        ],
+        "strategic": [
+            -46,
+            229
+        ]
+    },
+    "skinSize": "horizontal-small",
+    "skinVariant": "new"
+}
