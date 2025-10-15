@@ -9,9 +9,9 @@
 
 // wot replays manager
 Source: "files\mods\WOTREPLAYS\mods\{#PatchLesta}\me.poliroid.modslistapi_1.6.01.mtmod"; DestDir: "{app}\mods\{#PatchLesta}"; Flags: ignoreversion recursesubdirs createallsubdirs ; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemMainReplayManager');
-Source: "files\mods\WOTREPLAYS\mods\{#PatchLesta}\me.poliroid.replaysmanager_3.8.02.mtmod"; DestDir: "{app}\mods\{#PatchLesta}"; Flags: ignoreversion recursesubdirs createallsubdirs ; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemMainReplayManager');
+Source: "files\mods\WOTREPLAYS\mods\{#PatchLesta}\me.poliroid.replaysmanager_3.8.5.mtmod"; DestDir: "{app}\mods\{#PatchLesta}"; Flags: ignoreversion recursesubdirs createallsubdirs ; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemMainReplayManager');
 Source: "files\mods\WOTREPLAYS\mods\{#PatchLesta}\net.openwg\net.openwg.fix.battleresultscache_1.8.1.mtmod"; DestDir: "{app}\mods\{#PatchLesta}\net.openwg"; Flags: ignoreversion recursesubdirs createallsubdirs ; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemMainReplayManager');
-Source: "files\mods\WOTREPLAYS\mods\{#PatchLesta}\net.openwg\net.openwg.fix.battleresultsreplays_1.0.4.mtmod"; DestDir: "{app}\mods\{#PatchLesta}\net.openwg"; Flags: ignoreversion recursesubdirs createallsubdirs ; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemMainReplayManager');
+Source: "files\mods\WOTREPLAYS\mods\{#PatchLesta}\net.openwg\net.openwg.fix.battleresultsreplays_1.0.5.mtmod"; DestDir: "{app}\mods\{#PatchLesta}\net.openwg"; Flags: ignoreversion recursesubdirs createallsubdirs ; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemMainReplayManager');
 
 // radio wgfm
 Source: "files\mods\WGFM\mods\{#PatchLesta}\me.poliroid.modslistapi_1.6.01.mtmod"; DestDir: "{app}\mods\{#PatchLesta}"; Flags: ignoreversion recursesubdirs createallsubdirs ; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemMainRadioWGFM');
@@ -130,7 +130,7 @@ begin
   AddCheckBoxExt(ComponentsListMain, 'itemMainAchievements', 0, True, [], 'achiv.png');
   AddCheckBoxExt(ComponentsListMain, 'itemMainTrafficLight', 0, True, [], 'traffic.png');
   AddCheckBoxExt(ComponentsListMain, 'itemMain3dStyles', 0, False, [], '3dstyles.png');
-  AddCheckBoxExt(ComponentsListMain, 'itemMainThreeMarks', 0, True, [], 'otmetki.png');
+  AddCheckBoxExt(ComponentsListMain, 'itemMainThreeMarks', 0, False, [], 'otmetki.png');
   //AddCheckBoxExt(ComponentsListMain, 'itemMainDecisiveShot', 0, True, [], 'Hangar.png');
   //AddCheckBoxExt(ComponentsListMain, 'itemMainCombatCalculator', 0, True, [], 'Hangar.png');
   //AddCheckBoxExt(ComponentsListMain, 'itemMainAngles', 0, True, [], 'Hangar.png');
