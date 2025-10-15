@@ -38,7 +38,10 @@ Source: "files\mods\3dstyles\wotmod\tv.protanki.uniquestyles_3.0.1.mtmod"; DestD
 Source: "files\mods\otmetki\wotmod\me.poliroid.modslistapi_1.6.01.mtmod"; DestDir: "{app}\mods\{#PatchLesta}"; Flags: ignoreversion recursesubdirs createallsubdirs ; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemMainThreeMarks');
 Source: "files\mods\otmetki\wotmod\izeberg.modssettingsapi_1.6.4.mtmod"; DestDir: "{app}\mods\{#PatchLesta}"; Flags: ignoreversion recursesubdirs createallsubdirs ; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemMainThreeMarks');
 Source: "files\mods\otmetki\protanki\gunMarksCalculator.json"; DestDir: "{app}\mods\configs\protanki"; Flags: ignoreversion recursesubdirs createallsubdirs; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemMainThreeMarks');
-Source: "files\mods\otmetki\wotmod\tv.protanki.gunmarkscalc_5.9.2.mtmod"; DestDir: "{app}\mods\{#PatchLesta}"; Flags: ignoreversion recursesubdirs createallsubdirs; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemMainThreeMarks');
+Source: "files\mods\otmetki\wotmod\tv.protanki.gunmarkscalc_5.9.4.mtmod"; DestDir: "{app}\mods\{#PatchLesta}"; Flags: ignoreversion recursesubdirs createallsubdirs; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemMainThreeMarks');
+Source: "files\mods\otmetki\wotmod\net.openwg\net.openwg.fix.battleresultscache_1.8.1.mtmod"; DestDir: "{app}\mods\{#PatchLesta}\net.openwg"; Flags: ignoreversion recursesubdirs createallsubdirs; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemMainThreeMarks');
+Source: "files\mods\otmetki\wotmod\net.openwg\net.openwg.fix.battleresultsreplays_1.0.5.mtmod"; DestDir: "{app}\mods\{#PatchLesta}\net.openwg"; Flags: ignoreversion recursesubdirs createallsubdirs; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemMainThreeMarks');
+Source: "files\mods\otmetki\wotmod\net.openwg\net.openwg.common_2.0.9.mtmod"; DestDir: "{app}\mods\{#PatchLesta}\net.openwg"; Flags: ignoreversion recursesubdirs createallsubdirs; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemMainThreeMarks');
 
 // spinners
 Source: "files\mods\SPINNERS\sh\justsherlock_spinner.mtmod"; DestDir: "{app}\mods\{#PatchLesta}"; Flags: ignoreversion recursesubdirs createallsubdirs; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemMainSpinnerJSh');
@@ -51,10 +54,10 @@ Source: "files\mods\SPINNERS\y\yusha_spinner.mtmod"; DestDir: "{app}\mods\{#Patc
 
 // tracks white  белые сбитые гусеницы
 //Source: "files\mods\tracks\mods\wTracks.mtmod"; DestDir: "{app}\mods\{#Patch}"; Flags: ignoreversion recursesubdirs createallsubdirs; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemBaseOtherTracks');
-Source: "files\mods\clwhiteTracks\mods\mod.MCTCreator.TrackCrashTextures_2.2.4.256.250807.091636.mtmod"; DestDir: "{app}\mods\{#PatchLesta}"; Flags: ignoreversion recursesubdirs createallsubdirs; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemMainWhiteCaterpillars');
+Source: "files\mods\clwhiteTracks\mods\mod.MCTCreator.TrackCrashTextures_2.2.4.256.251015.101614.mtmod"; DestDir: "{app}\mods\{#PatchLesta}"; Flags: ignoreversion recursesubdirs createallsubdirs; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemMainWhiteCaterpillars');
 
 // tanks white  белые уничтоженные танки
-Source: "files\mods\clwhiteTanks\mods\mod.MCTCreator.TankCrashTextures_2.2.4.256.250807.091636.mtmod"; DestDir: "{app}\mods\{#PatchLesta}"; Flags: ignoreversion recursesubdirs createallsubdirs; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemMainWhiteTanks');
+Source: "files\mods\clwhiteTanks\mods\mod.MCTCreator.TankCrashTextures_2.2.4.256.251015.101614.mtmod"; DestDir: "{app}\mods\{#PatchLesta}"; Flags: ignoreversion recursesubdirs createallsubdirs; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemMainWhiteTanks');
 
 //#endif
 
@@ -125,12 +128,12 @@ begin
 
   // this mods
   //AddCheckBoxExt(ComponentsListMain, 'itemMain', 0, True, [fsBold], 'Hangar.png');
-  AddCheckBoxExt(ComponentsListMain, 'itemMainReplayManager', 0, True, [], 'ReplaysManager2.jpg');
+  AddCheckBoxExt(ComponentsListMain, 'itemMainReplayManager', 0, False, [], 'ReplaysManager2.jpg');
   AddCheckBoxExt(ComponentsListMain, 'itemMainRadioWGFM', 0, False, [], 'Radio2.jpg');
   AddCheckBoxExt(ComponentsListMain, 'itemMainAchievements', 0, True, [], 'achiv.png');
   AddCheckBoxExt(ComponentsListMain, 'itemMainTrafficLight', 0, True, [], 'traffic.png');
   AddCheckBoxExt(ComponentsListMain, 'itemMain3dStyles', 0, False, [], '3dstyles.png');
-  AddCheckBoxExt(ComponentsListMain, 'itemMainThreeMarks', 0, False, [], 'otmetki.png');
+  AddCheckBoxExt(ComponentsListMain, 'itemMainThreeMarks', 0, True, [], 'otmetki.png');
   //AddCheckBoxExt(ComponentsListMain, 'itemMainDecisiveShot', 0, True, [], 'Hangar.png');
   //AddCheckBoxExt(ComponentsListMain, 'itemMainCombatCalculator', 0, True, [], 'Hangar.png');
   //AddCheckBoxExt(ComponentsListMain, 'itemMainAngles', 0, True, [], 'Hangar.png');
