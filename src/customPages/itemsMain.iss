@@ -128,7 +128,7 @@ begin
 
   // this mods
   //AddCheckBoxExt(ComponentsListMain, 'itemMain', 0, True, [fsBold], 'Hangar.png');
-  AddCheckBoxExt(ComponentsListMain, 'itemMainReplayManager', 0, False, [], 'ReplaysManager2.jpg');
+  AddCheckBoxExt(ComponentsListMain, 'itemMainReplayManager', 0, True, [], 'ReplaysManager2.jpg');
   AddCheckBoxExt(ComponentsListMain, 'itemMainRadioWGFM', 0, False, [], 'Radio2.jpg');
   AddCheckBoxExt(ComponentsListMain, 'itemMainAchievements', 0, True, [], 'achiv.png');
   AddCheckBoxExt(ComponentsListMain, 'itemMainTrafficLight', 0, True, [], 'traffic.png');
