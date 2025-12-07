@@ -69,7 +69,7 @@ begin
    DelTree(WoTAppData + 'wgfm', True, True, True);
   end;
   SaveStringToFile(ExpandConstant('{app}\res_mods\'+GamePatch+'\readme.txt'), 'This folder is used for Mir Tankov modifiers (mods).', False); // {#Patch}
-  SaveStringToFile(ExpandConstant('{app}\mods\'+GamePatch+'\readme.txt'), 'This folder is used for packaged Mir Tankov modifiers (*.wotmods).', False); // {#Patch}
+  SaveStringToFile(ExpandConstant('{app}\mods\'+GamePatch+'\readme.txt'), 'This folder is used for packaged Mir Tankov modifiers (*.mtmods).', False); // {#Patch}
  except
   MsgBoxEx(WizardForm.Handle, GetExceptionMessage(), '{#__FILE__}: {#__LINE__}', MB_OK or MB_ICONERROR, 0, 0);
  end;
@@ -97,8 +97,8 @@ begin
     if not DirExists(ExpandConstant('{app}\mods\'+GamePatch+'')) then // {#Patch}
      ForceDirectories(ExpandConstant('{app}\mods\'+GamePatch+'')); // {#Patch}
 
-    SaveStringToFile(ExpandConstant('{app}\res_mods\'+GamePatch+'\readme.txt'), 'This folder is used for World of Tanks modifiers (mods).', False); // {#Patch}
-    SaveStringToFile(ExpandConstant('{app}\mods\'+GamePatch+'\readme.txt'), 'This folder is used for packaged World of Tanks modifiers (*.wotmods).', False); // {#Patch}
+    SaveStringToFile(ExpandConstant('{app}\res_mods\'+GamePatch+'\readme.txt'), 'This folder is used for Mir Tankov modifiers (mods).', False); // {#Patch}
+    SaveStringToFile(ExpandConstant('{app}\mods\'+GamePatch+'\readme.txt'), 'This folder is used for packaged Mir Tankov modifiers (*.mtmods).', False); // {#Patch}
    end;
   // openwg_utils -> Procedure OPENWG_DllDelete()
   if IsUninstaller() then
