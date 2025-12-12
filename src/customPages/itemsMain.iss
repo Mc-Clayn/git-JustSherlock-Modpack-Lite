@@ -54,10 +54,10 @@ Source: "files\mods\SPINNERS\y\yusha_spinner.mtmod"; DestDir: "{app}\mods\{#Patc
 
 // tracks white  белые сбитые гусеницы
 //Source: "files\mods\tracks\mods\wTracks.mtmod"; DestDir: "{app}\mods\{#Patch}"; Flags: ignoreversion recursesubdirs createallsubdirs; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemBaseOtherTracks');
-Source: "files\mods\clwhiteTracks\mods\mod.MCTCreator.TrackCrashTextures_2.2.4.256.251203.095554.mtmod"; DestDir: "{app}\mods\{#PatchLesta}"; Flags: ignoreversion recursesubdirs createallsubdirs; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemMainWhiteCaterpillars');
+Source: "files\mods\clwhiteTracks\mods\mod.MCTCreator.TrackCrashTextures_2.2.4.256.251211.181033.mtmod"; DestDir: "{app}\mods\{#PatchLesta}"; Flags: ignoreversion recursesubdirs createallsubdirs; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemMainWhiteCaterpillars');
 
 // tanks white  белые уничтоженные танки
-Source: "files\mods\clwhiteTanks\mods\mod.MCTCreator.TankCrashTextures_2.2.4.256.251203.095554.mtmod"; DestDir: "{app}\mods\{#PatchLesta}"; Flags: ignoreversion recursesubdirs createallsubdirs; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemMainWhiteTanks');
+Source: "files\mods\clwhiteTanks\mods\mod.MCTCreator.TankCrashTextures_2.2.4.256.251211.181033.mtmod"; DestDir: "{app}\mods\{#PatchLesta}"; Flags: ignoreversion recursesubdirs createallsubdirs; BeforeInstall: SetInstallStatus('instStatusBase'); Check: ComponentsMainChecked('itemMainWhiteTanks');
 
 //#endif
 
